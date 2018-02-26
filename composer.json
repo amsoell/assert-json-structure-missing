@@ -1,0 +1,24 @@
+{
+    "name": "amsoell/assert-json-structure-missing",
+    "description": "Laravel PHPUnit assertion to test for lack of a given JSON structure",
+    "authors": [
+        {
+            "name": "Andy Soell",
+            "email": "andy@resolutionbio.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Amsoell\\AssertJsonStructureMissing\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amsoell\\AssertJsonStructureMissing\\ServiceProvider"
+            ]
+        }
+    }
+}
